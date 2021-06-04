@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ModbusTCPClient</class>
+ <widget class="QMainWindow" name="ModbusTCPClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>536</width>
+    <height>352</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>ModbusTCPClient</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QTextEdit" name="textEdit"/>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout">
+        <item>
+         <widget class="QPushButton" name="connect">
+          <property name="text">
+           <string>connect</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="read_input_bits">
+          <property name="text">
+           <string>read input bits</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="read_output_bits">
+          <property name="text">
+           <string>read output bits</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="write_holding_regs">
+          <property name="text">
+           <string>write holding regs</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="read_holding_regs">
+          <property name="text">
+           <string>read holding regs</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="reserve1">
+          <property name="text">
+           <string>reserve1</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QPushButton" name="reserve2">
+          <property name="text">
+           <string>reserve2</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>536</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
